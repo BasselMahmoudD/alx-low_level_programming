@@ -11,11 +11,12 @@
 int main(void)
 {
 	int digit1 = 48;
+	int digit2;
 
 	while (digit1 < 58)
 	{
 		putchar(digit1);
-		int digit2 = digit1 + 1;
+		digit2 = digit1 + 1;
 
 		while (digit2 < 58)
 		{
