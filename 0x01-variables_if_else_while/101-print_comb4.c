@@ -29,9 +29,13 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+				digit3++;
 			}
+			digit2++;
 		}
-		putchar('\n');
+
+		digit1++;
 	}
+	putchar('\n');
 	return (0);
 }
