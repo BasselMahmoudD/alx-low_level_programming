@@ -15,11 +15,11 @@ int main(void)
 
 	while (digit1 < 58)
 	{
-		putchar(digit1);
 		digit2 = digit1 + 1;
 
 		while (digit2 < 58)
 		{
+			putchar(digit1);
 			putchar(digit2);
 			putchar(',');
 			putchar(' ');
