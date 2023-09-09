@@ -21,7 +21,7 @@ int main(void)
 		{
 			putchar(digit1);
 			putchar(digit2);
-			if (digit1 != 56 && digit2 != 57)
+			if (digit1 != 56)
 			{
 			putchar(',');
 			putchar(' ');
