@@ -1,4 +1,4 @@
-#include "maun.h"
+#include "main.h"
 
 /**
  * print_number - print an int
