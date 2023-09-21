@@ -1,6 +1,13 @@
 #include "main.h"
 
-/**/
+/**
+ * _strcmp - compare tow string
+ *
+ * @s1: input 1
+ * @s2: inut2
+ *
+ * Return: equal
+*/
 
 int _strcmp(char *s1, char *s2)
 {
