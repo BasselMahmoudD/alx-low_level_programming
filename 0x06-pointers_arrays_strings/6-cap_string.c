@@ -35,11 +35,11 @@ int isDelimiter(char c)
 /**
  * *cap_string - cap
  *
- * @str: input
+ * @s: input
  *
  * Return: char
 */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
 	char *ptr = s;
 	int foundDelimit = 1;
