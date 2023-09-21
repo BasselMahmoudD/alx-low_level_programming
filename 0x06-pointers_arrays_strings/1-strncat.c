@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strncpy - copy two string
+ * *_strncat - concatenates two string with specific character
  *
  * @dest: input1
  * @src: input2
@@ -10,7 +10,7 @@
  * Return: dest
 */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int c, i;
 
