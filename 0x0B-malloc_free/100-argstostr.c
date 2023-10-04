@@ -24,4 +24,7 @@ char *argstostr(int ac, char **av)
 			cont++;
 			new++;
 		}
-
+		cont++;
+		i++;
+	}
+	result = malloc(cont + 1);
