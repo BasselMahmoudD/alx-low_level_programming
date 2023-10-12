@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef VARIADIC_FUNCTIONS_H
+#define VARIADIC_FUNCTIONS_H
 #include <stdarg.h>
 /**
  * struct typeprint - Struct typeprint
@@ -20,4 +20,4 @@ void print_char(va_list arguments);
 void print_int(va_list arguments);
 void print_float(va_list arguments);
 void print_string(va_list arguments);
-#endif
+#endif /* _VARIADIC_FUNCTIONS */
