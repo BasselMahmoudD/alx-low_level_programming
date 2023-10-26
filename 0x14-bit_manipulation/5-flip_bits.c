@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * flip_bit - return number of the bits that would need to be flipped
+ * flip_bits - return number of the bits that would need to be flipped
  * @n: first number
  * @index: second number
  * Return: number of the bits to f;ip to convert mubers
