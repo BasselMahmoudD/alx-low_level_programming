@@ -3,7 +3,7 @@
 /**
  * flip_bits - return number of the bits that would need to be flipped
  * @n: first number
- * @index: second number
+ * @m: second number
  * Return: number of the bits to f;ip to convert mubers
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
